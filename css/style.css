@@ -8,6 +8,7 @@
     --second-blue-color:#66CAD9;
     --texto-gray-color:#7f7f7f;
     --white-color: #ffeff3;
+    --h2-font-size: 36px;
     --h3-font-size:28px;
     --h4-font-size:24px;
     --card-border-radius:15px;
@@ -340,3 +341,64 @@ main .main-right-side .main-avatar-card img{
 .section-social-media .social-media-card p{
     color: var(--texto-gray-color);
 }
+
+/* Finish Social Media Section */
+
+/*---------------------------------------------*/
+
+/* MAIN POST SECTION START */
+
+
+.section-main-post{
+    display: flex;
+    width: 85%;
+    padding: 10% 5%;
+}
+.section-main-post .thumbnail-main-post{
+    max-width: 60%;
+    padding: 0 10% 0 0 ;
+    object-fit: contain;
+}
+.section-main-post .main-post-preview{
+ align-self: center;   
+ max-width: 40%;
+}
+.section-main-post .main-post-preview h2{
+    color: var(--texto-gray-color);
+    font-weight: bold;
+    font-size: var(--h2-font-size);
+   }
+.section-main-post .main-post-preview ul{
+    list-style: none;
+    padding: 0;
+}
+.section-main-post .main-post-preview ul li{
+    display: flex;
+}
+.section-main-post .main-post-preview ul li img{
+    width: 50px;
+    height: 50px;
+    margin: 15px
+}
+.section-main-post .main-post-preview button{
+    background-color: var(--cta-pink-color);
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    -webkit-box-shadow: 0px 20px 21px -8px rgba(244,103,137,1);
+    -moz-box-shadow: 0px 20px 21px -8px rgba(244,103,137,1);
+    box-shadow: 0px 20px 21px -8px rgba(244,103,137,1);
+    cursor: pointer;
+}
+.section-main-post .main-post-preview button .main-post-more{
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Finish Main Post Section */
+
+/*---------------------------------------------*/
+
+/* Benefits SECTION START */
