@@ -1,7 +1,7 @@
 
 /* VARIABLES */
 :root{
-    --main-bg-color: coral;
+    --yellow-text-color:#dac05a;
     --titles-color: #343855;
     --arrow-gray: #ab9fbf;
     --cta-pink-color: #f46789;
@@ -401,4 +401,117 @@ main .main-right-side .main-avatar-card img{
 
 /*---------------------------------------------*/
 
-/* Benefits SECTION START */
+/* BENEFITS SECTION START */
+
+.section-benefits{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 5% 0% 5% 5%;
+}
+.benefits{
+    max-width: 60%;
+    padding: 0 20% 0% 10% ;
+}
+
+.section-benefits .benefits h3{
+    color: var(--texto-gray-color);
+    font-weight: bold;
+    font-size: var(--h3-font-size);
+   }
+
+.section-benefits .benefits ul{
+    list-style: none;
+    padding: 0;
+}
+.section-benefits .benefits ul li{
+    display: flex;
+}
+.section-benefits .benefits ul li img{
+    width: 50px;
+    height: 50px;
+    margin: 15px
+}
+
+
+/* Finish Benefits Section */
+
+/*---------------------------------------------*/
+
+/* OUR BLOG START */
+
+.section-blog{
+    margin: 0 80px;
+}
+
+.section-blog .section-blog-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.section-blog .section-blog-header h3{
+    font-size: var(--h3-font-size);
+    font-weight: bold;
+    color:  var(--titles-color);
+}
+
+.section-blog .section-blog-header p{
+    font-weight: 600;
+    color:  var(--cta-pink-color);
+    cursor: pointer;
+}
+
+
+.blog-posts-container{
+    display: flex;
+}
+
+.section-blog .blog-card-post{
+    margin: 0 50px;
+}
+.section-blog .blog-card-post img{
+    border-radius: var(--card-border-radius);
+    cursor: pointer;
+}
+.section-blog .blog-card-post .to-uppercase{
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-blog .blog-card-post .post-card-category-fb{
+    color: var(--cta-pink-color);
+}
+.section-blog .blog-card-post .post-card-category-google{
+    color: var(--yellow-text-color);
+}
+.section-blog .blog-card-post .post-card-category-email{
+    color: var(--second-blue-color);
+}
+.section-blog .blog-card-post .post-card-title{
+    cursor: pointer;
+    font-size: var(--h4-font-size);
+    color: var(--titles-color);
+}
+.section-blog .blog-card-post .post-card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-blog .blog-card-post .post-card-footer .autor{
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--texto-gray-color);
+}
+.section-blog .blog-card-post .post-card-footer .date{
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: var(--arrow-gray);
+}
+
+/* Finish Our Blog Section */
+
+/*---------------------------------------------*/
+
+/* NEWSLETTER START */
