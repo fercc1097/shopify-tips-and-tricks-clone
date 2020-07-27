@@ -9,6 +9,7 @@
     --texto-gray-color:#7f7f7f;
     --white-color: #ffeff3;
     --h3-font-size:28px;
+    --h4-font-size:24px;
     --card-border-radius:15px;
     --card-padding: 20px;
 
@@ -139,6 +140,10 @@ main .main-left-side .main-second-text{
     grid-row: 11/13;
 }
 
+main .main-left-side .main-second-text p{
+    color: var(--texto-gray-color);
+}
+
 main .main-left-side .main-second-text h3{
     font-size: var(--h3-font-size);
     font-weight: bold;
@@ -267,10 +272,6 @@ main .main-right-side .main-avatar-card{
     align-items: center;
 }
 
-main .main-right-side .main-avatar-card{
-
-}
-
 main .main-right-side .blue-background{
     border-radius:var(--card-border-radius);
     padding: 3px;
@@ -307,4 +308,35 @@ main .main-right-side .main-card-rating{
 main .main-right-side .main-avatar-card img{
     width: 20px;
     height: 20px;
+}
+
+/* Finish Main Section */
+
+/*---------------------------------------------*/
+
+/* SOCIAL MEDIA SECTION START */
+
+.section-social-media{
+    margin: auto;
+    margin-top: 70px;
+    width: 90%;
+    display: flex;
+}
+
+.section-social-media .social-media-card{
+    margin: 0 0 30px 30px;
+}
+
+.section-social-media .social-media-card .social-media-img-container img {
+    width: 100px;
+    height: 100px;
+}
+.section-social-media .social-media-card h4{
+    color: var(--titles-color);
+    font-weight: bold;
+    font-size: var(--h4-font-size); 
+}
+
+.section-social-media .social-media-card p{
+    color: var(--texto-gray-color);
 }
