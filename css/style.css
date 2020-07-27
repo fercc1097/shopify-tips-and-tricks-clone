@@ -583,9 +583,10 @@ main .main-right-side .main-avatar-card img{
     padding: 0 50px;
     cursor: pointer;
 }
-.newsletter-section .newsletter-form button {
+.newsletter-section .newsletter-form button a {
     color: var(--white-color);
     font-weight: bold;
+    text-decoration: none;
 }
 .newsletter-section .newsletter-semicircle{
     width: 140px;
