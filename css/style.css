@@ -352,7 +352,7 @@ main .main-right-side .main-avatar-card img{
 .section-main-post{
     display: flex;
     width: 85%;
-    padding: 10% 5%;
+    margin: 50px 100px 100px 100px;
 }
 .section-main-post .thumbnail-main-post{
     max-width: 60%;
@@ -406,11 +406,12 @@ main .main-right-side .main-avatar-card img{
 .section-benefits{
     display: flex;
     justify-content: space-between;
-    width: 95%;
-    padding: 5% 0% 5% 5%;
+    width: 100%;
+    margin: 50px auto;
 }
 .section-benefits .benefits-img{
-    min-width: 500px;
+    width: 100%;
+    object-fit: contain;
 }
 .benefits{
     max-width: 60%;
