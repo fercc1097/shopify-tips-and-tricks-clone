@@ -4,5 +4,8 @@
 <p>I have learned to use grid and flexbox</p>
 <p>In future version i can improve the images to makeit lighter</p>
 
+<h2>What is new?</h2>
+<p>The site is now accessible, if you liked the old colors you can see the previous version</p>
+
 <h2>Visita la página <a href="https://fercc1097.github.io/shopify-tips-and-tricks-clone/">Aquí</a></h2>
 <p>Enlace: https://fercc1097.github.io/shopify-tips-and-tricks-clone/</p>
